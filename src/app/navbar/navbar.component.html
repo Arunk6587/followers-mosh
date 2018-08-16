@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="nav-item active current">
+        <a class="nav-link" routerLink="/followers">Followers</a>
+      </li>
+      <li routerLinkActive="nav-item active current">
+          <a class="nav-link" 
+              routerLink="/followers" 
+              [queryParams]="{page: 1, order: 'newest' }">
+              Followers
+            </a>
+        </li>
+      <li routerLinkActive="nav-item active current">
+        <a class="nav-link" routerLink="/posts">Posts</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
