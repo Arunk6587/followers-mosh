@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { GithubFollowersService } from './github-followers.service';
+import { GithubFollwersService } from './github-followers.service';
 
-describe('GithubFollowersService', () => {
+describe('GithubFollwersService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [GithubFollowersService]
+      providers: [GithubFollwersService]
     });
   });
 
-  it('should be created', inject([GithubFollowersService], (service: GithubFollowersService) => {
+  it('should be created', inject([GithubFollwersService], (service: GithubFollwersService) => {
     expect(service).toBeTruthy();
   }));
 });
